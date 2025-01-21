@@ -7,7 +7,7 @@ This project is focused on Optical Character Recognition (OCR) using the YOLOv8 
 ### Example:
 
 <p align="center">
-  <div style="display: flex; justify-content: center; gap: 20px;">
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
     <figure>
         <img src="data/2025-01-22 031822.png" alt="Image 1" width="435"/>
         <figcaption>Image 1: Sample image from the dataset.</figcaption>
@@ -22,6 +22,7 @@ This project is focused on Optical Character Recognition (OCR) using the YOLOv8 
     </figure>
   </div>
 </p>
+
 
 
 ## Project Structure
