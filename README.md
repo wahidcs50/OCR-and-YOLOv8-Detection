@@ -7,21 +7,20 @@ This project is focused on Optical Character Recognition (OCR) using the YOLOv8 
 ### Example:
 
 <p align="center">
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
-    <figure>
-        <img src="data/2025-01-22 031822.png" alt="Image 1" width="435"/>
-        <figcaption>Image 1: Sample image from the dataset.</figcaption>
-    </figure>
-    <figure>
-       <img src="data/2025-01-22 031939.png" alt="Image 2" width="435"/>
-       <figcaption>Image 2: Sample image from the dataset.</figcaption>
-    </figure>
-    <figure>
-       <img src="data/2025-01-22 040543.png" alt="Image 3" width="435"/>
-       <figcaption>Image 3: Sample image from the dataset.</figcaption>
-    </figure>
-  </div>
+  <figure style="display: inline-block; margin-right: 20px;">
+    <img src="data/2025-01-22 031822.png" alt="Image 1" width="435"/>
+    <figcaption>Image 1: Sample image from the dataset.</figcaption>
+  </figure>
+  <figure style="display: inline-block; margin-right: 20px;">
+    <img src="data/2025-01-22 031939.png" alt="Image 2" width="435"/>
+    <figcaption>Image 2: Sample image from the dataset.</figcaption>
+  </figure>
+  <figure style="display: inline-block;">
+    <img src="data/2025-01-22 040543.png" alt="Image 3" width="435"/>
+    <figcaption>Image 3: Sample image from the dataset.</figcaption>
+  </figure>
 </p>
+
 
 
 
