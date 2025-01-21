@@ -1,8 +1,10 @@
 import os
 from dotenv import load_dotenv
+from ultralytics import YOLO
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
-from models.detection import process_detections
+from models.detection_model import process_detections
 from models.utils import map_players_to_positions
+from models.utils import getting_detections
 import cv2
 import torch
 from pathlib import Path
@@ -21,11 +23,11 @@ def main():
 
    
     model_path = os.getenv('YOLOV8_MODEL_PATH')  # Path to your finetuned YOLOv8 model
-    detection_model = torch.hub.load('ultralytics/yolov5', 'custom', path=model_path, force_reload=True)
+    detection_model =YOLO(model_path)
 
 
     print("Performing detection...")
-    detections = detection_model(image)
+    detections = detection_model(detection_model, image)
 
     print("Processing detections...")
     saved_images = process_detections(image, detections)

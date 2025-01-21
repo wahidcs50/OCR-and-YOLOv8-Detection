@@ -1,5 +1,11 @@
 from trocr_processing import ocr
 
+
+def getting_detections(model, image):
+    result = model(image, agnostic_nms=True)[0]
+    detections = sv.Detections.from_ultralytics(result)
+    return detections
+
 def map_players_to_positions(saved_images, processor, model):
     player_names = []
     player_positions = []
