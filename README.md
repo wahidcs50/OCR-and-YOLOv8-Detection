@@ -23,5 +23,6 @@ pip install -r requirements.txt
 
 ### Example:
 
-```markdown
-![Image 1](data/2025-01-22\ 031822.png)
+![Alt text](data/2025-01-22 031939.png)
+
+
