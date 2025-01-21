@@ -6,11 +6,12 @@ This project is focused on Optical Character Recognition (OCR) using the YOLOv8 
 
 ### Example:
 
-![Alt text](data/2025-01-22 031939.png)
+ ![Image Alt Text](data/2025-01-22 031939.png)
 
 <p align="center">
+  <img src="data/2025-01-22 031822.png" alt="Image 1" width="435"/>
   <img src="data/2025-01-22 031939.png" alt="Image 1" width="435"/>
-<!--   <img src="result_plots/xglinear_fit_plot.png" alt="Image 2" width="520"/>
+<!-- <!--   <img src="result_plots/xglinear_fit_plot.png" alt="Image 2" width="520"/> -->
 <!--   <img src="result_plots/fflinear_fit_plot.png" alt="Image 3" width="500"/> --> -->
 </p>
 
