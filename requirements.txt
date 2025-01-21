@@ -1,0 +1,11 @@
+torch
+transformers
+opencv-python
+pillow
+python-dotenv
+ultralytics
+onnx
+onnxruntime
+supervision
+onnxruntime-gpu
+numpy
