@@ -4,6 +4,16 @@
 
 This project is focused on Optical Character Recognition (OCR) using the YOLOv8 architecture. YOLOv8 is a deep learning model designed for object detection, and in this case, it is adapted for text recognition within images. The project involves training and inference on images, and the data used for training and testing is stored in the `data/` folder.
 
+### Example:
+
+![Alt text](data/2025-01-22 031939.png)
+
+<p align="center">
+  <img src="data/2025-01-22 031939.png" alt="Image 1" width="435"/>
+<!--   <img src="result_plots/xglinear_fit_plot.png" alt="Image 2" width="520"/>
+<!--   <img src="result_plots/fflinear_fit_plot.png" alt="Image 3" width="500"/> --> -->
+</p>
+
 ## Project Structure
 
 - **data/**: Contains the image data used for OCR processing.
@@ -21,8 +31,5 @@ To get started with this project, you'll need to install the required dependenci
 ```bash
 pip install -r requirements.txt
 
-### Example:
-
-![Alt text](data/2025-01-22 031939.png)
 
 
