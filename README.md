@@ -20,3 +20,8 @@ To get started with this project, you'll need to install the required dependenci
 
 ```bash
 pip install -r requirements.txt
+
+### Example:
+
+```markdown
+![Image 1](data/2025-01-22\ 031822.png)
